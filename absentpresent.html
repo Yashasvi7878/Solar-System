@@ -1,0 +1,61 @@
+<html>
+<head>
+</head>
+<body>
+<input type="text" id="monday" placeholder="Monday"/>
+<input type="text" id="Tuesday" placeholder="Tuesday"/>
+<input type="text" id="Wednesday" placeholder="Wednesday"/>
+<input type="text" id="Thursday" placeholder="Thursday"/>
+<input type="text" id="friday" placeholder="friday"/>
+<input type="text" id="saturday" placeholder="saturday"/>
+
+<input type="submit" onclick="PresentAbsent()"/>
+
+
+<script>
+var monday=document.getElementById("monday");
+var Tuesday=document.getElementById("Tuesday");
+var Wednesday=document.getElementById("Wednesday");
+var Thursday=document.getElementById("Thursday");
+var friday=document.getElementById("friday");
+var saturday=document.getElementById("saturday");
+
+function PresentAbsent()
+{
+var present=0,percentage=0;
+
+if(monday.value=='p')
+{
+alert("");
+present+=1;
+}
+if(Tuesday.value=='p')
+{
+present+=1;
+}
+if(Wednesday.value=='p')
+{
+present+=1;
+}
+if(Thursday.value=='p')
+{
+present+=1;
+}
+if( friday.value=='p')
+{
+present+=1;
+}
+if(saturday.value=='p')
+{
+present+=1;
+}
+
+percentage=(present/6)*100;
+alert("your attendance="+percentage+"%");
+}
+
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,187 @@
+<html>
+<HEAD>
+</HEAD>
+<body background="Nebula.png">
+<img src="giphy.GIF" style="margin-left:1100px; margin-top:150px; position:absolute;"></img>
+<img src="earth.jpg" height="110px" width="150px" id="mercury" style="margin-left:590px;margin-top:390px;position:absolute;z-index:1;"></img>
+<p id="venus" style="margin-left:650px;margin-top:440px;position:absolute;z-index:2;">VENUS</P>
+<img src="earthh.png" id="earth"  height="100px" width="100px" style="margin-left:700px;margin-top:440px;position:absolute;z-index:3;"></img>
+<img src="mars.png" id="mars" height="90px"  width="90px" style="margin-left:750px;margin-top:470px;position:absolute;z-index:4;"></img>
+<p id="jupiter" style="margin-left:800px;margin-top:500px;position:absolute;z-index:5;">JUPITER</P>
+<p id="saturn" style="margin-left:850px;margin-top:530px;position:absolute;z-index:6;">SATURN</P>
+<p id="uranus" style="margin-left:900px;margin-top:560px;position:absolute;z-index:7;">URANUS</P>
+<img src="m.png" height="30px" width="33px" id="neptune" style="margin-left:950px;margin-top:590px;position:absolute;z-index:8;"></img>
+<script>
+setInterval(round,20); 
+var ml=590,mt=390,vl=650,vt=410,el=700,et=440,mal=750,mat=470,jl=800,jt=500,sl=850,st=530,ul=900,ut=560,nl=950,nt=590,walk=0;
+function round()
+{
+var m=document.getElementById("mercury");
+m.style.marginLeft=ml+"px";
+m.style.marginTop=mt+"px";
+var v=document.getElementById("venus");
+v.style.marginLeft=vl+"px";
+v.style.marginTop=vt+"px";
+var e=document.getElementById("earth");
+e.style.marginLeft=el+"px";
+e.style.marginTop=et+"px";
+var ma=document.getElementById("mars");
+ma.style.marginLeft=mal+"px";
+ma.style.marginTop=mat+"px";
+var j=document.getElementById("jupiter");
+j.style.marginLeft=jl+"px";
+j.style.marginTop=jt+"px";
+var s=document.getElementById("saturn");
+s.style.marginLeft=sl+"px";
+s.style.marginTop=st+"px";
+var u=document.getElementById("uranus");
+u.style.marginLeft=ul+"px";
+u.style.marginTop=ut+"px";
+var n=document.getElementById("neptune");
+n.style.marginLeft=nl+"px";
+n.style.marginTop=nt+"px";
+walk=walk+1;
+if(walk<=300)
+{
+ml=ml-1;
+vl=vl-1;
+el=el-1;
+mal=mal-1
+jl=jl-1;
+sl=sl-1;
+ul=ul-1;
+nl=nl-1;
+}
+else if (walk<=600)
+{
+ml=ml-1;
+mt=mt-1;
+vl=vl-1;
+vt=vt-1;
+el=el-1;
+et=et-1;
+mal=mal-1;
+mat=mat-1;
+jl=jl-1;
+jt=jt-1;
+sl=sl-1;
+st=st-1;
+ul=ul-1;
+ut=ut-1;
+nl=nl-1;
+nt=nt-1;
+}
+else if (walk<=900)
+{
+ml=ml-1;
+vl=vl-1;
+el=el-1;
+mal=mal-1;
+jl=jl-1;
+sl=sl-1;
+ul=ul-1;
+nl=nl-1;
+nt=nt-1;
+}
+else if (walk<=1200)
+{
+ml=ml+1;
+mt=mt-1;
+vl=vl+1;
+vt=vt-1;
+el=el+1;
+et=et-1;
+mal=mal+1;
+mat=mat-1;
+jl=jl+1;
+jt=jt-1;
+sl=sl+1;
+st=st-1;
+ul=ul+1;
+ut=ut-1;
+nl=nl+1;
+nt=nt-1;
+}
+else if (walk<=1500)
+{
+ml=ml+1;
+mt=mt-1;
+vl=vl+1;
+vt=vt-1;
+el=el+1;
+et=et-1;
+mal=mal+1;
+mat=mat-1;
+jl=jl+1;
+jt=jt-1;
+sl=sl+1;
+st=st-1;
+ul=ul+1;
+ut=ut-1;
+nl=nl+1;
+nt=nt-1;
+}
+else if (walk<=1800)
+{
+ml=ml+1;
+vl=vl+1;
+el=el+1;
+mal=mal+1;
+jl=jl+1;
+sl=sl+1;
+ul=ul+1;
+nl=nl+1;
+}
+else if (walk<=1800)
+{
+ml=ml+1;
+mt=mt+1;
+vl=vl+1;
+vt=vt+1;
+el=el+1;
+et=et+1;
+mal=mal+1;
+mat=mat+1;
+jl=jl+1;
+jt=jt+1;
+sl=sl+1;
+st=st+1;
+ul=ul+1;
+ut=ut+1;
+nl=nl+1;
+nt=nt+1;
+}
+else if (walk<=2100)
+{
+ml=ml+1;
+vl=vl+1;
+el=el+1;
+mal=mal+1;
+jl=jl+1;
+sl=sl+1;
+ul=ul+1;
+nl=nl+1;
+}
+else if (walk<=2400)
+{
+ml=ml+1;
+mt=mt-1;
+vl=vl+1;
+vt=vt-1;
+el=el+1;
+et=et-1;
+mal=mal+1;
+mat=mat-1;
+jl=jl+1;
+jt=jt-1;
+sl=sl+1;
+st=st-1;
+ul=ul+1;
+ut=ut-1;
+nl=nl+1;
+nt=nt-1;
+}
+}
+</script>
+</body>
+</html>

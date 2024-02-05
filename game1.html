@@ -1,0 +1,65 @@
+<html>
+<head>
+<style>
+.bon
+{
+border:1px soild black ;
+height:25%;
+width:24%;
+float:felt;
+}
+
+
+ </style>
+</head>
+<body>
+<div id="outer">
+<div id="box">
+<img id="A" src="yashi.jpg" height="10%" width="10%" </div>
+<img id="B" src="yashi.jpg" height="10%" width="10%" </div>
+<img id="C" src="yashi.jpg" height="10%" width="10%" </div>
+<img id="D" src="yashi.jpg" height="10%" width="10%" </div></BR>
+
+<img id="E" src="yashi.jpg" height="10%" width="10%" </div>
+<img id="F" src="yashi.jpg" height="10%" width="10%" </div>
+<img id="G" src="yashi.jpg" height="10%" width="10%" </div>
+<img id="H" src="yashi.jpg" height="10%" width="10%" </div></BR>
+
+<img id="I" src="yashi.jpg" height="10%" width="10%" </div>
+<img id="J" src="yashi.jpg" height="10%" width="10%" </div>
+<img id="K" src="yashi.jpg" height="10%" width="10%" </div>
+<img id="L" src="yashi.jpg" height="10%" width="10%" </div></BR>
+<script>
+var second=1, minute=0;
+function digitaltime()
+{
+if(second<10)
+{
+second="0"+second;
+}
+else if (second==60)
+{
+second="0";
+minute=parseInt(minute)+1;
+if(minute==1)
+ {
+ alert("enter new stage");
+ stage=2;
+ refresh();
+ }
+}
+if(minute<10);
+{
+minute="0"+parseInt(minute);
+}
+document.getElementById("timer").innerHTML=minute=+":"+second;
+second=parseInt(second)+timer;
+ }
+ if (id=A)
+ {
+ img.src="pic.jpg";
+ 
+ }
+</script>
+</body>
+</html>

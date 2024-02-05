@@ -1,0 +1,63 @@
+<html>
+<head>
+</head>
+<body>
+<div id="temp1">
+Yashasvi Srivastava 
+</div>
+<div id="temp2">
+Yashasvi Srivastava 
+</div>
+<div id="temp3">
+Yashasvi Srivastava 
+</div>
+<input type="submit" onclick="color()" />
+
+<script>
+var count=2;
+var x=document.getElementById("temp1");
+var y=document.getElementById("temp2");
+var z=document.getElementById("temp3");
+
+function color()
+{
+
+
+if (count==2)
+{
+x.style.border="thin solid black";
+x.style.backgroundColor="red";
+x.style.color="white";
+count=1;
+}
+else if (count==1)
+{
+y.style.border="thin solid black";
+y.style.backgroundColor="blue";
+y.style.color="white";
+count=0;
+}
+else
+{
+z.style.border="thin solid black";
+z.style.backgroundColor="green";
+z.style.color="white";
+count=0;
+}
+
+}
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+</body>
+</html>
